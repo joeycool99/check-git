@@ -1,0 +1,14 @@
+ls
+cd
+git init
+git remote add origin [gitLink]----if error use below link
+                  git remote set-url origin https://github.com/joeycool99/pancardform.git
+git config user.name joeycool99
+git config user.email naveenjoe@gmail.com
+
+git remote -v
+git add .
+
+git commit -m "First commit"----if error use below link
+                  git branch -M main
+git push origin main
